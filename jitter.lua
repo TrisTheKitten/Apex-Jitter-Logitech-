@@ -10,8 +10,10 @@ This script is for educational purposes only. Using macros are against the terms
 --]]
 
 local movePattern = {
-    {-12, 10}, {10, -12}
+    {-1, -1}, {1, -1}, {1, 1}, {-1, 1},
+    {-1, 0}, {1, 0}, {0, -1}, {0, 1}
 }
+
 local speeds = {1, 3, 5, 10}
 local moveIndex, currentSpeedIndex = 1, 1
 local patternSize = 13 
